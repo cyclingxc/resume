@@ -1,10 +1,12 @@
 html {
     justify-content: center;
     align-items: center;
+    min-width: 720px;
 }
 body {
     align-self: center;
     font-family: Helvetica;
+    font-size: 18px;
     margin: 0 auto;
     max-width: 960px;
 }
@@ -14,7 +16,7 @@ body {
  */
 .banner {
     background-color: #ffb545;
-    margin-bottom: 0%;
+    margin-bottom: 20px;
     padding: 0%;
     vertical-align: top;
     width: 100%;
@@ -28,7 +30,7 @@ body {
     width: 100%;
 }
 .career-title {
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
     color: #ffffff;
 }
@@ -38,38 +40,78 @@ body {
     -Right for skills and interests
 */
 .left-column,
+.verticle-separator,
 .right-column {
     display: inline-block;
+    padding-top: 10px;
     vertical-align: top;
     height: 10em;
 }
 .left-column {
     float:left;
-    width: 70%;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 65%;
+}
+.verticle-separator {
+    border-left: 2px solid gray;
+    height: 650px;
+    margin: 10px;
 }
 .right-column {
-    float:right;
-    width: 30%;
+    padding-left: 5px;
+    vertical-align: top;
+
 }
 
 .icon {
     display: inline-block;
+    vertical-align: middle;
+    padding-top: 12px;
+    margin-bottom: 15px;
 }
 .icon-text {
     display: inline-block;
+    vertical-align: middle;
     padding: 0%;
+}
+
+.horizontal-separator {
+    border-bottom: 2px solid gray;
+    margin-top: 30px;
+    width: 100%;
+
 }
 
 /* Formatting for h1 and h2 */
 h1 {
     margin: 0%;
     padding: 0%;
+    color: #e49217;
 }
+
 h2 {
-    margin: 0%;
-    padding: 0%;
+    color:#e47317
+}
+
+td {
+    vertical-align: top;
+}
+
+.courses-header {
+    font-size: 22px;
 }
 
 footer {
     width: 100%;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+footer.h1,
+footer.h2 {
+    margin: 0%;
+    padding: 0%;
 }
