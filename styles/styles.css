@@ -1,12 +1,9 @@
-html {
-    max-width: 720px;
-    margin: 40px;
-    background-color: #3b3b3b;
-}
 body {
+    background-color: #3b3b3b;
+    max-width: 720px;
     font-family: Helvetica;
     font-size: 16px;
-    margin: 0 auto;
+    margin: 10px auto;
     align-items: center;
 }
 /* 
@@ -22,10 +19,8 @@ body {
     height: 180px;
     position: relative;
 }
-.image-container {
-    float:left;
-}
 .image {
+    float: left;
     filter: grayscale(30%);
 }
 .name {
@@ -53,8 +48,8 @@ body {
     -Right for skills and interests
 */
 .main-pane {
-    background-color: transparent;
     display: flex;
+    margin: 0 auto;
 }
 .left-column {
     padding-right: 11%;
