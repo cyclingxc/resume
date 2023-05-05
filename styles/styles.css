@@ -1,5 +1,5 @@
 html {
-    min-width: 720px;
+    max-width: 720px;
     margin: 40px;
     background-color: #3b3b3b;
 }
@@ -7,7 +7,6 @@ body {
     font-family: Helvetica;
     font-size: 16px;
     margin: 0 auto;
-    max-width: 960px;
     align-items: center;
 }
 /* 
@@ -20,7 +19,7 @@ body {
     padding-left: 30px;
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 180px;
     position: relative;
 }
 .image-container {
@@ -32,17 +31,19 @@ body {
 .name {
     font-size: 40px;
     vertical-align: top;
+    width: 281px;
     color: #ffffff;
 }
 .career-title {
     font-size: 25px;
     font-style: italic;
+    width: 281px;
     color: rgb(190, 190, 190);
 }
 .loc-and-contact {
     display: flex;
     justify-content: space-between;
-    width: 280px;
+    width: 281px;
     font-size: 12px;
     color: rgb(190, 190, 190);
 }
@@ -58,13 +59,13 @@ body {
 .left-column {
     padding-right: 11%;
     float:left;
-    width: 65%;
 }
 .right-column {
     float: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-height:500px;
 }
 
 .content-pane {
