@@ -42,7 +42,7 @@ body {
 .loc-and-contact {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 280px;
     font-size: 12px;
     color: rgb(190, 190, 190);
 }
@@ -61,6 +61,7 @@ body {
     width: 65%;
 }
 .right-column {
+    float: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,18 +74,6 @@ body {
     border-radius: 3px;
 }
 
-.icon {
-    display: inline-block;
-    vertical-align: middle;
-    padding-top: 12px;
-    margin-bottom: 15px;
-}
-.icon-text {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0%;
-}
-
 .horizontal-separator {
     margin-top: 30px;
     width: 100%;
@@ -95,22 +84,18 @@ body {
 .text-title {
     font-size: 35px;
 }
-a {
-    color: white;
+
+.sub-text {
+    border-left: 1px solid gray;
+    margin-left: 12px;
+    padding-left: 8px;
 }
 
-td {
-    vertical-align: top;
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .courses-header {
     font-size: 22px;
-}
-
-footer {
-    width: 100%;
-}
-
-footer {
-    padding-bottom: 20px;
 }
