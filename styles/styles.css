@@ -53,10 +53,8 @@ body {
 }
 .left-column {
     padding-right: 11%;
-    float:left;
 }
 .right-column {
-    float: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
