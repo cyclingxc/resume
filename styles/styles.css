@@ -1,6 +1,7 @@
 body {
     background-color: #3b3b3b;
     max-width: 720px;
+    min-width: 720px;
     font-family: Helvetica;
     font-size: 16px;
     margin: 10px auto;
@@ -38,9 +39,14 @@ body {
 .loc-and-contact {
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
     width: 281px;
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(190, 190, 190);
+}
+.quote {
+    width: 281px;
+    color:rgb(180, 180, 180);
 }
 
 /* Two columns
@@ -77,7 +83,6 @@ body {
 /* Text formatting */
 a {
     color: white;
-    text-decoration: none;
 }
 .larger-text {
     font-size: larger;
